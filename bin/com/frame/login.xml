@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="Suit login" verbose="10">
+
+     <parameter name= "url" value="file:///C:/Users/Lenovo/Desktop/Selenium%20Software/Offline%20Website/index.html"/>
+     
+      <test  name="LoginTestcases"> 
+      
+                           <parameter name="user" value="kiran@gmail.com"/>
+        
+                             <parameter name="pass" value="123456"/>
+      
+          <classes>
+          
+                 <class name="com.frame.login_page"/>
+                  
+           </classes>
+        </test> 
+</suite>

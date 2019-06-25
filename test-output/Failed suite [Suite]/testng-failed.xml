@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Failed suite [Suite]]">
+  <test thread-count="5" verbose="10" name="Test(failed)(failed)">
+    <classes>
+      <class name="com.testng.framework.TC_Class1">
+        <methods>
+          <include name="tc05VerifyHyperlinks"/>
+          <include name="tc02VerifyLaunchPage"/>
+          <include name="tc04VerifyLoggedInPage"/>
+        </methods>
+      </class> <!-- com.testng.framework.TC_Class1 -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Suit login]">
+  <parameter name="url" value="file:///C:/Users/Lenovo/Desktop/Selenium%20Software/Offline%20Website/index.html"/>
+  <test thread-count="5" verbose="10" name="LoginTestcases(failed)">
+    <parameter name="pass" value="123456"/>
+    <parameter name="user" value="kiran@gmail.com"/>
+    <classes>
+      <class name="com.frame.login_page">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginTestcases" invocation-numbers="0"/>
+          <include name="Setup_Browser"/>
+        </methods>
+      </class> <!-- com.frame.login_page -->
+    </classes>
+  </test> <!-- LoginTestcases(failed) -->
+</suite> <!-- Failed suite [Suit login] -->

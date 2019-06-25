@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[browser is opened now]]>
+    </line>
+    <line>
+      <![CDATA[websit is opened now]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16871" started-at="2019-05-07T17:51:15Z" finished-at="2019-05-07T17:51:31Z">
+    <groups>
+      <group name="smoke">
+        <method signature="DataprovideerEx.LoginTestcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="LoginTestcases" class="com.data.listener.DataprovideerEx"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="16871" started-at="2019-05-07T17:51:15Z" finished-at="2019-05-07T17:51:31Z">
+      <class name="com.data.listener.DataprovideerEx">
+        <test-method status="PASS" signature="Setup_browser()[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="Setup_browser" is-config="true" duration-ms="16964" started-at="2019-05-07T17:50:58Z" finished-at="2019-05-07T17:51:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[browser is opened now]]>
+            </line>
+            <line>
+              <![CDATA[websit is opened now]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Setup_browser -->
+        <test-method status="PASS" signature="locateAllWebElement()[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="locateAllWebElement" is-config="true" duration-ms="71" started-at="2019-05-07T17:51:15Z" finished-at="2019-05-07T17:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateAllWebElement -->
+        <test-method status="PASS" signature="LoginTestcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="LoginTestcases" duration-ms="4270" started-at="2019-05-07T17:51:15Z" data-provider="Login_data" finished-at="2019-05-07T17:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blankuser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcases -->
+        <test-method status="PASS" signature="locateAllWebElement()[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="locateAllWebElement" is-config="true" duration-ms="35" started-at="2019-05-07T17:51:19Z" finished-at="2019-05-07T17:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateAllWebElement -->
+        <test-method status="PASS" signature="LoginTestcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="LoginTestcases" duration-ms="4243" started-at="2019-05-07T17:51:19Z" data-provider="Login_data" finished-at="2019-05-07T17:51:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kiran12@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter email as kiran@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcases -->
+        <test-method status="PASS" signature="locateAllWebElement()[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="locateAllWebElement" is-config="true" duration-ms="33" started-at="2019-05-07T17:51:23Z" finished-at="2019-05-07T17:51:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateAllWebElement -->
+        <test-method status="PASS" signature="LoginTestcases(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="LoginTestcases" duration-ms="8193" started-at="2019-05-07T17:51:23Z" data-provider="Login_data" finished-at="2019-05-07T17:51:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TCid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[validuser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kiran@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[AdminLTE 2 | Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestcases -->
+        <test-method status="PASS" signature="Close_browser()[pri:0, instance:com.data.listener.DataprovideerEx@f2b07d]" name="Close_browser" is-config="true" duration-ms="11" started-at="2019-05-07T17:51:31Z" finished-at="2019-05-07T17:51:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_browser -->
+      </class> <!-- com.data.listener.DataprovideerEx -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
